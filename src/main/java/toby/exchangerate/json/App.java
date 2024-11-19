@@ -1,4 +1,4 @@
-package org.toby.exchangerate.json;
+package toby.exchangerate.json;
 
 import java.util.Currency;
 
