@@ -1,10 +1,10 @@
-package toby.exchangerate.json.api.exchangerates.exchangerates;
+package toby.exchangerate.json.api.exchangerates.exchangerates.latest;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import org.assertj.core.api.Assertions;
 import org.assertj.core.api.Condition;
 import org.junit.jupiter.api.Test;
-import toby.exchangerate.json.api.exchangerates.LatestCurrencyExchangeRatesResponse;
+import toby.exchangerate.json.api.exchangerates.latest.LatestCurrencyExchangeRatesResponse;
 
 import static toby.exchangerate.json.JsonHandler.deserializeFromJson;
 
