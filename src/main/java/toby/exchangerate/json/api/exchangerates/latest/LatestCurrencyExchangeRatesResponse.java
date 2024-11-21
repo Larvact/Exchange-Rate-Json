@@ -1,4 +1,4 @@
-package toby.exchangerate.json.api.exchangerates;
+package toby.exchangerate.json.api.exchangerates.latest;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Data;
