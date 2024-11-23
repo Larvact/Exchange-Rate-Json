@@ -6,7 +6,8 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-import java.util.Set;
+import java.util.ArrayList;
+import java.util.List;
 
 @NoArgsConstructor
 @AllArgsConstructor
@@ -18,5 +19,5 @@ public class LatestCurrencyExchangeRatesRequest
     private String baseCurrencySymbol;
 
     @JsonProperty("response_currency_symbols")
-    private Set<String> responseCurrencySymbols;
+    private List<String> responseCurrencySymbols = new ArrayList<>();
 }
